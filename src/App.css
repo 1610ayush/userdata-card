@@ -1,38 +1,430 @@
-.App {
-  text-align: center;
+.new-joine-template {
+  align-items: center;
+  background-color: #ebf5ff;
+  border: 1px none;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.new-joine-template .img {
+  height: 10px;
+  position: relative;
+  width: 800px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.new-joine-template .content {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  padding: 48px 0px;
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.new-joine-template .frame {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+}
+
+.new-joine-template .div {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.new-joine-template .frame-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 32px;
+  justify-content: center;
+  position: relative;
+}
+
+.new-joine-template .logo-welcome {
+  align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 40px;
+  height: 111px;
+  position: relative;
+  width: 409px;
+}
+
+.new-joine-template .refyne-logo {
+  height: 32px;
+  position: relative;
+  width: 138px;
+}
+
+.new-joine-template .dear-team-please {
+  color: #001647;
+  font-family: "Work Sans", Helvetica;
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-left: -8px;
+  margin-right: -8px;
+  position: relative;
+  width: fit-content;
+}
+
+.new-joine-template .text-wrapper {
+  line-height: 32px;
+}
+
+.new-joine-template .span {
+  line-height: 24px;
+}
+
+.new-joine-template .picture {
   align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.new-joine-template .mask-group {
+  height: 204px;
+  position: relative;
+  width: 204px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.new-joine-template .name-and-designation {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  justify-content: center;
+  position: relative;
+}
+
+.new-joine-template .vineet-mishra-senior {
+  color: transparent;
+  font-family: "Work Sans", Helvetica;
+  font-size: 28px;
+  font-weight: 600;
+  height: 81px;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: 356px;
+}
+
+.new-joine-template .text-wrapper-2 {
+  color: #001647;
+  line-height: 48px;
+}
+
+.new-joine-template .text-wrapper-3 {
+  color: #0057b7;
+  font-size: 22px;
+  line-height: 36px;
+}
+
+.new-joine-template .professional {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 48px;
+  justify-content: center;
+  padding: 48px 32px;
+  position: relative;
+}
+
+.new-joine-template .icon-professional {
+  height: 80px;
+  position: relative;
+  width: 63.93px;
+}
+
+.new-joine-template .group {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 63px;
+  width: 64px;
+}
+
+.new-joine-template .img-2 {
+  height: 17px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.new-joine-template .overlap-group {
+  background-image: url(../src/images/vector-1.svg);
+  background-size: 100% 100%;
+  height: 17px;
+  left: 23px;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.new-joine-template .vector {
+  height: 17px;
+  left: 46px;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+.new-joine-template .mask-group-wrapper {
+  background-image: url(../src/images/union.svg);
+  background-size: 100% 100%;
+  height: 58px;
+  left: 13px;
+  position: absolute;
+  top: 0;
+  width: 37px;
+}
+
+.new-joine-template .mask-group-2 {
+  height: 58px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 37px;
+}
+
+.new-joine-template .vineet-mishra-leads-wrapper {
+  height: 320px;
+  margin-right: -2px;
+  position: relative;
+  width: 523px;
+}
+
+.new-joine-template .vineet-mishra-leads {
+  color: #001647;
+  font-family: "Work Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  width: 521px;
+}
+
+.new-joine-template .hobbies {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 48px;
+  justify-content: center;
+  padding: 48px 32px;
+  position: relative;
+}
+
+.new-joine-template .icon-hobbies {
+  height: 64px;
+  position: relative;
+  width: 59.28px;
+}
+
+.new-joine-template .overlap-group-2 {
+  height: 51px;
+  left: 18px;
+  position: absolute;
+  top: 13px;
+  width: 41px;
+}
+
+.new-joine-template .vector-2 {
+  height: 51px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+.new-joine-template .rectangle {
+  background-color: #001647;
+  border-radius: 10px;
+  height: 4px;
+  left: 33px;
+  position: absolute;
+  top: 4px;
+  width: 8px;
+}
+
+.new-joine-template .rectangle-2 {
+  background-color: #001647;
+  border-radius: 10px;
+  height: 4px;
+  left: 2px;
+  position: absolute;
+  top: 4px;
+  width: 8px;
+}
+
+.new-joine-template .overlap {
+  background-color: #0057b7;
+  border-radius: 4px 4px 8px 4px;
+  height: 34px;
+  left: 0;
+  position: absolute;
+  top: 30px;
+  width: 18px;
+}
+
+.new-joine-template .rectangle-3 {
+  background-color: #0057b7;
+  border-radius: 4px;
+  height: 14px;
+  left: 8px;
+  position: relative;
+  top: 20px;
+  width: 3px;
+}
+
+.new-joine-template .rectangle-4 {
+  background-color: #001647;
+  border-radius: 10px;
+  height: 4px;
+  left: 43px;
+  position: absolute;
+  top: 2px;
+  transform: rotate(-60deg);
+  width: 8px;
+}
+
+.new-joine-template .rectangle-5 {
+  background-color: #001647;
+  border-radius: 10px;
+  height: 4px;
+  left: 29px;
+  position: absolute;
+  top: 3px;
+  transform: rotate(60deg);
+  width: 8px;
+}
+
+.new-joine-template .p-wrapper {
+  height: 150px;
+  margin-right: -2px;
+  position: relative;
+  width: 518px;
+}
+
+.new-joine-template .p {
+  color: #001647;
+  font-family: "Work Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 150px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  top: 0;
+  width: 516px;
+}
+
+.new-joine-template .text-name {
+  height: 66px;
+  position: relative;
+  width: 590px;
+}
+
+.new-joine-template .text-wrapper-4 {
+  color: #001647;
+  font-family: "Work Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 66px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 588px;
+}
+
+.new-joine-template .welcome-aboard {
+  height: 80px;
+  position: relative;
+  width: 209px;
+}
+
+.new-joine-template .text-wrapper-5 {
+  color: #001647;
+  font-family: "Work Sans", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  height: 32px;
+  left: 22px;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 48px;
+  white-space: nowrap;
+}
+
+.new-joine-template .text-wrapper-6 {
+  color: #001647;
+  font-family: "Work Sans", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+  height: 32px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+}
+
+.new-joine-template .elements {
+  height: 479px;
+  left: 11px;
+  position: absolute;
+  top: 10px;
+  width: 779px;
+}
+
+.new-joine-template .overlap-2 {
+  height: 479px;
+  position: relative;
+}
+
+.new-joine-template .group-2 {
+  height: 361px;
+  left: 17px;
+  position: absolute;
+  top: 34px;
+  width: 746px;
+}
+
+.new-joine-template .group-3 {
+  height: 479px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 779px;
 }
