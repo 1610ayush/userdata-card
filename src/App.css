@@ -207,7 +207,7 @@
 }
 
 .new-joine-template .vineet-mishra-leads-wrapper {
-  height: 320px;
+  height: auto;
   margin-right: -2px;
   position: relative;
   width: 523px;
@@ -221,8 +221,6 @@
   left: 0;
   letter-spacing: 0;
   line-height: 32px;
-  position: absolute;
-  top: 0;
   width: 521px;
 }
 
@@ -323,7 +321,7 @@
 }
 
 .new-joine-template .p-wrapper {
-  height: 150px;
+  height: auto;
   margin-right: -2px;
   position: relative;
   width: 518px;
@@ -334,12 +332,8 @@
   font-family: "Work Sans", Helvetica;
   font-size: 20px;
   font-weight: 400;
-  height: 150px;
-  left: 0;
   letter-spacing: 0;
   line-height: 32px;
-  position: absolute;
-  top: 0;
   width: 516px;
 }
 

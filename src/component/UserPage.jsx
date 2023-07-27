@@ -13,6 +13,7 @@ import group2 from "../images/group-1494.png"
 import group3 from "../images/group-15181.png"
 
 const UserPage = ({ data }) => {
+  const firstName = data.name.split(' ')[0]
   const cardRef = useRef();
 
   const handleDownloadPNG = () => {
@@ -98,7 +99,7 @@ const UserPage = ({ data }) => {
             </div>
             <div className="text-name">
               <p className="text-wrapper-4">
-                {data.name}, we are super excited to have you on board and build a great place to work together.
+                {firstName}, we are super excited to have you on board and build a great place to work together.
               </p>
             </div>
           </div>
