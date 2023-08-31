@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap');
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
 .new-joine-template {
   align-items: center;
   background-color: #ebf5ff;
@@ -109,6 +114,7 @@
   flex: 0 0 auto;
   justify-content: center;
   position: relative;
+  font-weight: 600;
 }
 
 .new-joine-template .vineet-mishra-senior {
