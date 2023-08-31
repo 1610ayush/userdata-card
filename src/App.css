@@ -106,6 +106,7 @@ body {
   height: 204px;
   position: relative;
   width: 204px;
+  object-fit: cover;
 }
 
 .new-joine-template .name-and-designation {
